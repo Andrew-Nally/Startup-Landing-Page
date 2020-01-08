@@ -1,0 +1,75 @@
+ .box {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background: aqua;
+}
+
+.box2 {
+  background: azure;
+}
+
+.box3 {
+  background: cadetblue;
+}
+
+
+@media (max-width: 1000px) {
+    .box1 {
+      background-color:blue;
+      width:80%;
+    }
+    .box2{
+      background-color:green;
+      width:80%;
+    }
+    .box3{
+     background-color:red;
+     width:80%;
+    }
+}
+
+  /* At 768px And below do the following: */
+  @media (max-width: 768px) {
+    .box {
+      width:60%;
+    }
+    .box1 {
+      background:teal;
+    }
+    .box2 {
+      background:gold;
+    }
+    .box3 {
+      background: pink;
+    }
+  }
+
+  /* At 400px And below do the following: */
+  @media (max-width: 400px) {
+    .box {
+      width:60%;
+    }
+    .box1 {
+      background:purple;
+    }
+    .box2 {
+      background:black;
+    }
+    .box3 {
+      background: gray;
+    }
+  }
+  @media (min-width: 1000px) {
+      .box1 {
+      background:aqua;
+    }
+    .box2 {
+      background:azure;
+    }
+    .box3 {
+      background: cadetblue;
+    }
+  }
